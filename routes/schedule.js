@@ -1,6 +1,6 @@
 const express = require('express')
 
-const scheduleUsecase = require('../usecases/sql/schedule')
+const scheduleUsecase = require('../usecases/mongo/schedule')
 
 const router = express.Router()
 

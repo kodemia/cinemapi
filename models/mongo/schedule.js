@@ -1,11 +1,11 @@
 const { Schema, model } = require('mongoose')
 
 const scheduleSchema = new Schema({
-  room_id: {
+  roomId: {
     type: String,
     required: true
   },
-  movie_id: {
+  movieId: {
     type: String,
     minLength: 1,
     required: true

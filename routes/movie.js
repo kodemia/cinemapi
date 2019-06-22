@@ -1,6 +1,6 @@
 const express = require('express')
 
-const movie = require('../usecases/sql/movie')
+const movie = require('../usecases/mongo/movie')
 
 const router = express.Router()
 

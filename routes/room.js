@@ -1,6 +1,6 @@
 const express = require('express')
 
-const room = require('../usecases/sql/room')
+const room = require('../usecases/mongo/room')
 
 const router = express.Router()
 
