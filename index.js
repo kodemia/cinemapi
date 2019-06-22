@@ -20,5 +20,5 @@ app.use('/schedule', scheduleRoutes)
 // rutas
 
 app.listen(8080, () => {
-  console.log('el servidor esta funcionando')
+  console.log('servidor corriendo en el puerto 8080')
 })
