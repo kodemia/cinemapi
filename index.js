@@ -13,6 +13,11 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
+app.use((req, res, next) => {
+  console.log('llamada')
+  next()
+})
+
 app.use('/movies', movieRoutes)
 app.use('/room', roomRoutes)
 app.use('/schedule', scheduleRoutes)

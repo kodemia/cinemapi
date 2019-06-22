@@ -17,10 +17,10 @@ class Room extends Model {
           type: 'number'
         },
         capacity: {
-          type: 'string'
+          type: 'number'
         },
         category: {
-          type: 'number'
+          type: 'string'
         }
       }
     }

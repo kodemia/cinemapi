@@ -10,7 +10,7 @@ exports.up = async (knex) => {
 
     table.string('name', 20)
     table.string('genre', 20)
-    table.integer('length', 20)
+    table.integer('length')
 
     table.boolean('is_deleted').defaultTo(false)
   })
